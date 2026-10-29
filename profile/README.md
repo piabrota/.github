@@ -66,6 +66,10 @@ stale.
 
 Partnership requests: mhoffmannfs [at] gmail.com.
 
+To fund the work: [Open Collective](https://opencollective.com/piabrota) or
+[GitHub Sponsors](https://github.com/sponsors/h0ffmann). Every repository of the org shows the
+Sponsor button ([`.github/FUNDING.yml`](../.github/FUNDING.yml)).
+
 ## How to cite
 
 The works with a DOI, by Matheus Hoffmann:

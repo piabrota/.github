@@ -1,0 +1,120 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "The piabrota fabric: six open projects, and where they meet the web",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "legend": {
+      "mode": "hidden"
+    },
+    "output": "fabric.html"
+  },
+  "lanes": [
+    {
+      "id": "think",
+      "label": "Think and write"
+    },
+    {
+      "id": "serve",
+      "label": "Warn and host"
+    },
+    {
+      "id": "play",
+      "label": "Play and listen"
+    },
+    {
+      "id": "web",
+      "label": "On the web"
+    }
+  ],
+  "mainPath": [
+    "pirsig",
+    "site"
+  ],
+  "nodes": [
+    {
+      "id": "ptbr",
+      "lane": "think",
+      "col": 0,
+      "type": "backend",
+      "label": "ptbr-writer",
+      "sublabel": "plain pt-BR, a Claude Code plugin",
+      "width": 240
+    },
+    {
+      "id": "pirsig",
+      "lane": "think",
+      "col": 1,
+      "type": "frontend",
+      "label": "pirsig",
+      "sublabel": "a second brain, PARA and slip-box",
+      "width": 240
+    },
+    {
+      "id": "closed",
+      "lane": "think",
+      "col": 2,
+      "type": "backend",
+      "label": "closed-source",
+      "sublabel": "a book, markdown in, PDF out",
+      "width": 240
+    },
+    {
+      "id": "alerts",
+      "lane": "serve",
+      "col": 0,
+      "type": "backend",
+      "label": "alerts",
+      "sublabel": "official flood alerts, CAP 1.2",
+      "width": 240
+    },
+    {
+      "id": "nixos",
+      "lane": "serve",
+      "col": 2,
+      "type": "database",
+      "label": "nix-os",
+      "sublabel": "the NixOS VPS",
+      "width": 240
+    },
+    {
+      "id": "ihero",
+      "lane": "play",
+      "col": 2,
+      "type": "frontend",
+      "label": "ihero",
+      "sublabel": "a music player and game, Rust",
+      "width": 240
+    },
+    {
+      "id": "site",
+      "lane": "web",
+      "col": 1,
+      "type": "external",
+      "label": "piabrota.art",
+      "sublabel": "the org's domain",
+      "width": 240
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "from": "alerts",
+      "to": "site",
+      "label": "/alerts"
+    },
+    {
+      "id": "e2",
+      "from": "pirsig",
+      "to": "site",
+      "label": "/pirsig, coming"
+    },
+    {
+      "id": "e3",
+      "from": "nixos",
+      "to": "site",
+      "label": "/nixos"
+    }
+  ]
+}

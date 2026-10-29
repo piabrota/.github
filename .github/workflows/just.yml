@@ -1,0 +1,20 @@
+name: just
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  ubuntu-just:
+    name: justfile parses with Ubuntu's just, figures are current
+    # The oldest Ubuntu LTS with a `just` package: 24.04 ships just 1.21.
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y just
+      - run: just --version && just --summary
+      - run: just figure-check

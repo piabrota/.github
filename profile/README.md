@@ -4,7 +4,7 @@
 
 # piabrota
 
-<sub>Open Software Fabric made in RJ · <a href="#in-one-minute">in one minute</a> · <a href="#projects">projects</a> · <a href="#how-it-fits">how it fits</a> · <a href="#partnerships">partnerships</a> · <a href="#license">license</a></sub>
+<sub>Open Software Fabric made in RJ · <a href="#in-one-minute">in one minute</a> · <a href="#projects">projects</a> · <a href="#how-it-fits">how it fits</a> · <a href="#board">board</a> · <a href="#partnerships">partnerships</a> · <a href="#license">license</a></sub>
 
 [![made in: Rio de Janeiro](https://img.shields.io/badge/made%20in-Rio%20de%20Janeiro-BC2318?style=flat-square)](#in-one-minute)
 [![code: FOSS](https://img.shields.io/badge/code-FOSS-1682D4?style=flat-square)](#license)
@@ -61,6 +61,15 @@ README, "Ways to run Pirsig" (`/pirsig`, coming).
 
 `just figure` draws it again with the pinned archify; `just figure-check` says whether the PNG is
 stale.
+
+## Board
+
+The people who build piabrota. Each line comes from their public GitHub profile.
+
+| | Developer | About |
+|:---:|---|---|
+| <img alt="The GitHub avatar of h0ffmann" src="https://avatars.githubusercontent.com/h0ffmann?s=128" width="64"/> | [**@h0ffmann**](https://github.com/h0ffmann)<br/>Matheus Hoffmann | "water animal", in Florianópolis. Works on pirsig, ptbr-writer, alerts and nix-os, writes closed-source, and makes [marola](https://marola.dev), the water super app. The works with a DOI are in [How to cite](#how-to-cite). |
+| <img alt="The GitHub avatar of aracyla" src="https://avatars.githubusercontent.com/aracyla?s=128" width="64"/> | [**@aracyla**](https://github.com/aracyla) | "General purpose developer currently focused on frontend development", in Brazil ([aracyla.xyz](https://aracyla.xyz)). Small C projects to study: a Tetris and a unit-test library. |
 
 ## Partnerships
 

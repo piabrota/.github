@@ -64,7 +64,7 @@ stale.
 
 ## Partnerships
 
-Partnership requests: mhoffmannfs [at] gmail.com.
+Partnership or white label requests: mhoffmannfs [at] gmail.com.
 
 To fund the work: [Open Collective](https://opencollective.com/piabrota) or
 [GitHub Sponsors](https://github.com/sponsors/h0ffmann). Every repository of the org shows the

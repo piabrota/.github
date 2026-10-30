@@ -27,25 +27,27 @@
 
 ## Projects
 
-| | Project | What it is | Licence |
-|:---:|---|---|---|
-| <img alt="無, mu, brushed in twelve strokes from Desmos equations" src="https://raw.githubusercontent.com/h0ffmann/pirsig/cebeff06f0c261632c216e3fe71fc697a091dade/docs/drawings/pirsig.svg" width="64"/> | [**pirsig**](https://github.com/h0ffmann/pirsig) | A second brain: PARA and a Zettelkasten slip-box in one place. A Rust app with a desktop app, a REST API and a terminal CLI, `psg`, on one model layer. | MPL-2.0 |
-| <img alt="A quill pen, in one line" src="https://raw.githubusercontent.com/h0ffmann/ptbr-writer/9855a0c33af290be37be9e9d94f5547bc522bd52/site/static/favicon.svg" width="64"/> | [**ptbr-writer**](https://github.com/h0ffmann/ptbr-writer) | Rewrites technical text in Brazilian Portuguese so that it reads once: explicit subject, one proposition per sentence. A Claude Code plugin; it marks with `⚠` what it did not check. | MPL-2.0 |
-| <img alt="A Fibonacci wave and a bell, in one line" src="https://raw.githubusercontent.com/piabrota/alerts/10d996d47c4a8c6bc4076f826bc274da3f8a5561/docs/drawings/wave.svg" width="64"/> | [**alerts**](https://github.com/piabrota/alerts) | A generic alert platform. It collects alerts from official sources only, and delivers them to Discord and an Atom feed with CAP 1.2. The first hazard is floods in the south of Brazil. | MPL-2.0 |
-| <img alt="An open letter c with a dot, on a dark square" src="https://raw.githubusercontent.com/h0ffmann/closed-source/6b3aae557f69ab89ec747364311978928dd0ca71/site/static/icons/favicon.svg" width="64"/> | [**closed-source**](https://github.com/h0ffmann/closed-source) | *The god that failed*: a book on why closed source failed as a protection, for science first. Markdown in, PDF out, every reference checked, every release citable. | text CC BY 4.0, code AGPL-3.0 |
-| 🎶 | **ihero** | A FOSS music player and game, in Rust. Coming. | MPL-2.0 |
-| ❄️ | [**nix-os**](https://github.com/piabrota/nix-os) | The NixOS configuration of the small VPS that serves piabrota.art/nixos. Every change is judged by what it adds to the closure and to memory. | MPL-2.0 |
+| | Project | What it is | Website | Licence |
+|:---:|---|---|---|---|
+| <img alt="無, mu, brushed in twelve strokes from Desmos equations" src="https://raw.githubusercontent.com/piabrota/pirsig/b7dd1da2ac886845b14bb90e5d8d34976cfc95cb/docs/drawings/pirsig.svg" width="64"/> | [**pirsig**](https://github.com/piabrota/pirsig) | A second brain: PARA and a Zettelkasten slip-box in one place. A Rust app with a desktop app, a REST API and a terminal CLI, `psg`, on one model layer. | none yet (piabrota.art/pirsig, coming) | MPL-2.0 |
+| <img alt="A large G, like the one of the square and compasses, in the colours of the flag of Brazil" src="https://raw.githubusercontent.com/piabrota/gramatico/436743495515d0f6104dfbbcb1ef08eaaae8b4f5/site/static/favicon.svg" width="64"/> | [**gramatico**](https://github.com/piabrota/gramatico) | Rewrites technical text in Brazilian Portuguese so that it reads once: explicit subject, one proposition per sentence. A Claude Code plugin; it marks with `⚠` what it did not check. | [piabrota.github.io/gramatico](https://piabrota.github.io/gramatico/) | MPL-2.0 |
+| <img alt="A Fibonacci wave and a bell, in one line" src="https://raw.githubusercontent.com/piabrota/alerts/10d996d47c4a8c6bc4076f826bc274da3f8a5561/docs/drawings/wave.svg" width="64"/> | [**alerts**](https://github.com/piabrota/alerts) | A generic alert platform. It collects alerts from official sources only, and delivers them to Discord and an Atom feed with CAP 1.2. The first hazard is floods in the south of Brazil. | none yet (piabrota.art/alerts, coming) | MPL-2.0 |
+| <img alt="代理, dairi, an agent, brushed in sixteen strokes among stars, inside an orbit" src="https://raw.githubusercontent.com/piabrota/rax/a1c99e147db88902db52e92aa86fe47d06e6e8c7/docs/drawings/cosmos.svg" width="64"/> | [**rax**](https://github.com/piabrota/rax) | Rustic Agentic Runtime: a pure-Rust port of AX, the declarative orchestrator for agentic tasks on Agent Substrate. It keeps AX's API, so a manifest written for AX works here. | none | MPL-2.0, parts from AX Apache-2.0 |
+| <img alt="An open letter c with a dot, on a dark square" src="https://raw.githubusercontent.com/h0ffmann/closed-source/6b3aae557f69ab89ec747364311978928dd0ca71/site/static/icons/favicon.svg" width="64"/> | [**closed-source**](https://github.com/h0ffmann/closed-source) | *The god that failed*: a book on why closed source failed as a protection, for science first. Markdown in, PDF out, every reference checked, every release citable. | [h0ffmann.github.io/closed-source](https://h0ffmann.github.io/closed-source/) | text CC BY 4.0, code AGPL-3.0 |
+| 🎶 | **ihero** | A FOSS music player and game, in Rust. Coming. | none yet | MPL-2.0 |
+| <img alt="无, mu, brushed in four strokes from Desmos equations" src="https://raw.githubusercontent.com/piabrota/nix-os/191a284035bef85ea828ff75cc729b4f045b10f1/docs/drawings/mu.svg" width="64"/> | [**nix-os**](https://github.com/piabrota/nix-os) | The NixOS configuration of the small VPS that serves piabrota.art/nixos. Every change is judged by what it adds to the closure and to memory. | [piabrota.art/nixos](https://piabrota.art/nixos) | MPL-2.0 |
 
-The drawings load from each project's repository at a pinned commit; none is copied here.
+The drawings load from each project's repository at a pinned commit; none is copied here. ihero
+has no repository yet, so it has no drawing.
 
 ## How it fits
 
-![The piabrota fabric in four lanes: pirsig, ptbr-writer and closed-source think and write; alerts and nix-os warn and host; ihero plays; alerts serves piabrota.art/alerts, nix-os serves piabrota.art/nixos, and pirsig comes to piabrota.art/pirsig.](img/fabric.png)
+![The piabrota fabric in four lanes: pirsig, gramatico and closed-source think and write; alerts, rax and nix-os warn and host; ihero plays; alerts serves piabrota.art/alerts, nix-os serves piabrota.art/nixos, and pirsig comes to piabrota.art/pirsig.](img/fabric.png)
 
 <details open>
 <summary>How to read this figure</summary>
 
-**Takeaway.** Six open projects, each on its own; three of them meet the web at piabrota.art.
+**Takeaway.** Seven open projects, each on its own; three of them meet the web at piabrota.art.
 
 **How to read.** One lane per kind of work. An arrow means "is served at", and its label is the
 path; "coming" means planned, not live. The red border marks the domain.

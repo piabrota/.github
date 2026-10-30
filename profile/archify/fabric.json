@@ -2,7 +2,7 @@
   "schema_version": 2,
   "diagram_type": "workflow",
   "meta": {
-    "title": "The piabrota fabric: six open projects, and where they meet the web",
+    "title": "The piabrota fabric: seven open projects, and where they meet the web",
     "locale": "en",
     "quality_profile": "showcase",
     "legend": {
@@ -34,11 +34,11 @@
   ],
   "nodes": [
     {
-      "id": "ptbr",
+      "id": "gramatico",
       "lane": "think",
       "col": 0,
       "type": "backend",
-      "label": "ptbr-writer",
+      "label": "gramatico",
       "sublabel": "plain pt-BR, a Claude Code plugin",
       "width": 240
     },
@@ -67,6 +67,15 @@
       "type": "backend",
       "label": "alerts",
       "sublabel": "official flood alerts, CAP 1.2",
+      "width": 240
+    },
+    {
+      "id": "rax",
+      "lane": "serve",
+      "col": 1,
+      "type": "backend",
+      "label": "rax",
+      "sublabel": "an agentic runtime on k8s, Rust",
       "width": 240
     },
     {

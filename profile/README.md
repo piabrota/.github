@@ -2,7 +2,7 @@
 
 # pia, brota
 
-<sub>Open Software Fabric made in RJ · <a href="#in-one-minute">in one minute</a> · <a href="#projects">projects</a> · <a href="#how-it-fits">how it fits</a> · <a href="#board">board</a> · <a href="#partnerships">partnerships</a> · <a href="#license">license</a></sub>
+<sub>Open Software Fabric made in RJ · <a href="#in-one-minute">in one minute</a> · <a href="#why-it-is-open">why it is open</a> · <a href="#projects">projects</a> · <a href="#how-it-fits">how it fits</a> · <a href="#board">board</a> · <a href="#partnerships">partnerships</a> · <a href="#license">license</a></sub>
 
 [![made in: Rio de Janeiro](https://img.shields.io/badge/made%20in-Rio%20de%20Janeiro-BC2318?style=flat-square)](#in-one-minute)
 [![code: FOSS](https://img.shields.io/badge/code-FOSS-1682D4?style=flat-square)](#license)
@@ -22,6 +22,17 @@
   each with a card that says how to read it.
 - **The org's domain is [piabrota.art](https://piabrota.art).** Projects come to it one path at a
   time.
+
+## Why it is open
+
+- **Read it, use it, and build your own.** You can have your own ideas by reading or using piabrota's
+  repositories. They are live documentation, and proof of the human work behind the scenes, so that
+  others can build their own.
+- **Built with Claude Code, on the way to FOSS.** Claude Code builds piabrota's projects most of the
+  time, but we keep a permanent effort to make the piabrota platform [F]OSS.
+- **A philosophy, not only a saving.** Token optimization and open-source models, on Ollama and
+  Ollaya, are how we build open-source software on open-source software, as agentic and as affordable
+  as possible.
 
 ## Projects
 

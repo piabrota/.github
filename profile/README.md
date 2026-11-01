@@ -1,7 +1,5 @@
 <div align="center">
 
-<img alt="The PIABROTA logo: a green eye, wide open, over the word PIABROTA, on red" src="https://avatars.githubusercontent.com/piabrota?s=400" width="200"/>
-
 # piabrota
 
 <sub>Open Software Fabric made in RJ · <a href="#in-one-minute">in one minute</a> · <a href="#projects">projects</a> · <a href="#how-it-fits">how it fits</a> · <a href="#board">board</a> · <a href="#partnerships">partnerships</a> · <a href="#license">license</a></sub>

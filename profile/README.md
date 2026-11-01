@@ -2,12 +2,13 @@
 
 # pia, brota
 
-<sub>Open Software Fabric made in RJ · <a href="#in-one-minute">in one minute</a> · <a href="#why-it-is-open">why it is open</a> · <a href="#projects">projects</a> · <a href="#how-it-fits">how it fits</a> · <a href="#board">board</a> · <a href="#partnerships">partnerships</a> · <a href="#license">license</a></sub>
+<sub>Open Software Fabric made in RJ · <a href="#in-one-minute">in one minute</a> · <a href="#why-it-is-open">why it is open</a> · <a href="#projects">projects</a> · <a href="#how-it-fits">how it fits</a> · <a href="#board">board</a> · <a href="#partnerships">partnerships</a> · <a href="#license">license</a> · <a href="https://github.com/piabrota/.github/blob/main/profile/README.pt-BR.md">🇧🇷 português</a></sub>
 
 [![made in: Rio de Janeiro](https://img.shields.io/badge/made%20in-Rio%20de%20Janeiro-BC2318?style=flat-square)](#in-one-minute)
 [![code: FOSS](https://img.shields.io/badge/code-FOSS-1682D4?style=flat-square)](#license)
 [![rust](https://img.shields.io/badge/rust-first-1682D4?style=flat-square&logo=rust&logoColor=white)](#projects)
 [![web: piabrota.art](https://img.shields.io/badge/web-piabrota.art-1682D4?style=flat-square)](https://piabrota.art)
+[![reading time: ~4 min](https://img.shields.io/badge/reading%20time-~4%20min-1682D4?style=flat-square)](#reading-time)
 
 </div>
 
@@ -104,6 +105,12 @@ The works with a DOI, by Matheus Hoffmann:
 - closed source: [10.5281/zenodo.23333656](https://doi.org/10.5281/zenodo.23333656)
 - marola-bench: [10.5281/zenodo.23352633](https://doi.org/10.5281/zenodo.23352633)
 - nashkell, the open book: [10.5281/zenodo.23356739](https://doi.org/10.5281/zenodo.23356739)
+
+## Reading time
+
+Both versions of this page show how long they take to read. `just reading-time` computes it, as
+[marola](https://github.com/marola-dev/marola) does: the words a person reads, at 238 words per minute
+in English and 181 in Portuguese (Brysbaert, 2019). CI fails when a badge is stale.
 
 ## License
 

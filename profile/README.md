@@ -32,20 +32,23 @@
 | <img alt="A Fibonacci wave and a bell, in one line" src="https://raw.githubusercontent.com/piabrota/alerts/10d996d47c4a8c6bc4076f826bc274da3f8a5561/docs/drawings/wave.svg" width="64"/> | [**alerts**](https://github.com/piabrota/alerts) | A generic alert platform. It collects alerts from official sources only, and delivers them to Discord and an Atom feed with CAP 1.2. The first hazard is floods in the south of Brazil. | none yet (piabrota.art/alerts, coming) | MPL-2.0 |
 | <img alt="代理, dairi, an agent, brushed in sixteen strokes among stars, inside an orbit" src="https://raw.githubusercontent.com/piabrota/rax/a1c99e147db88902db52e92aa86fe47d06e6e8c7/docs/drawings/cosmos.svg" width="64"/> | [**rax**](https://github.com/piabrota/rax) | Rustic Agentic Runtime: a pure-Rust port of AX, the declarative orchestrator for agentic tasks on Agent Substrate. It keeps AX's API, so a manifest written for AX works here. | none | MPL-2.0, parts from AX Apache-2.0 |
 | <img alt="An open letter c with a dot, on a dark square" src="https://raw.githubusercontent.com/h0ffmann/closed-source/6b3aae557f69ab89ec747364311978928dd0ca71/site/static/icons/favicon.svg" width="64"/> | [**closed-source**](https://github.com/h0ffmann/closed-source) | *The god that failed*: a book on why closed source failed as a protection, for science first. Markdown in, PDF out, every reference checked, every release citable. | [h0ffmann.github.io/closed-source](https://h0ffmann.github.io/closed-source/) | text CC BY 4.0, code AGPL-3.0 |
-| 🎶 | **ihero** | A FOSS music player and game, in Rust. Coming. | none yet | MPL-2.0 |
+| 🎶 | [**ihero**](https://github.com/piabrota/ihero) | A FOSS music player and game, in Rust. Coming: the repository holds only its licence. | none yet | MPL-2.0 |
 | <img alt="无, mu, brushed in four strokes from Desmos equations" src="https://raw.githubusercontent.com/piabrota/nix-os/191a284035bef85ea828ff75cc729b4f045b10f1/docs/drawings/mu.svg" width="64"/> | [**nix-os**](https://github.com/piabrota/nix-os) | The NixOS configuration of the small VPS that serves piabrota.art/nixos. Every change is judged by what it adds to the closure and to memory. | [piabrota.art/nixos](https://piabrota.art/nixos) | MPL-2.0 |
+| 🤖 | [**agents**](https://github.com/piabrota/agents) | Small agents that watch nix-os and its VPS, and report on GitHub as piabrota-ops. They open pull requests and never merge. | none | MPL-2.0 |
+| <img alt="む, mu, brushed in its three strokes, in pure Nix" src="https://raw.githubusercontent.com/piabrota/mu/960984b928062b5cf043001e072322df51f106fa/docs/drawings/mu.svg" width="64"/> | [**mu**](https://github.com/piabrota/mu) | The company chart: the dogma, the standards, the journal and the index of the org's repositories. | none | CC BY 4.0, AGPL-3.0, MPL-2.0 |
+| 道場 | [**dojo**](https://github.com/piabrota/dojo) | The umbrella of the piabrota projects. Being set up. | none yet | MPL-2.0 |
 
-The drawings load from each project's repository at a pinned commit; none is copied here. ihero
-has no repository yet, so it has no drawing.
+The drawings load from each project's repository at a pinned commit; none is copied here. ihero,
+agents and dojo have no drawing yet.
 
 ## How it fits
 
-![The piabrota fabric in four lanes: pirsig, gramatico and closed-source think and write; alerts, rax and nix-os warn and host; ihero plays; alerts serves piabrota.art/alerts, nix-os serves piabrota.art/nixos, and pirsig comes to piabrota.art/pirsig.](img/fabric.png)
+![The piabrota fabric in five lanes: mu and dojo hold the company; pirsig, gramatico and closed-source think and write; alerts, rax, nix-os and agents warn and host; ihero plays; alerts serves piabrota.art/alerts, nix-os serves piabrota.art/nixos, and pirsig comes to piabrota.art/pirsig.](img/fabric.png)
 
 <details open>
 <summary>How to read this figure</summary>
 
-**Takeaway.** Seven open projects, each on its own; three of them meet the web at piabrota.art.
+**Takeaway.** Ten open projects, each on its own; three of them meet the web at piabrota.art.
 
 **How to read.** One lane per kind of work. An arrow means "is served at", and its label is the
 path; "coming" means planned, not live. The red border marks the domain.

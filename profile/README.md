@@ -1,6 +1,6 @@
 <div align="center">
 
-# piabrota
+# pia, brota
 
 <sub>Open Software Fabric made in RJ · <a href="#in-one-minute">in one minute</a> · <a href="#projects">projects</a> · <a href="#how-it-fits">how it fits</a> · <a href="#board">board</a> · <a href="#partnerships">partnerships</a> · <a href="#license">license</a></sub>
 

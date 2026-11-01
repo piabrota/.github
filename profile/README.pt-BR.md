@@ -49,22 +49,23 @@
 | <img alt="无, mu, brushed in four strokes from Desmos equations" src="https://raw.githubusercontent.com/piabrota/nix-os/191a284035bef85ea828ff75cc729b4f045b10f1/docs/drawings/mu.svg" width="64"/> | [**nix-os**](https://github.com/piabrota/nix-os) | A configuração NixOS da pequena VPS que serve piabrota.art/nixos. Cada mudança é julgada pelo que adiciona à closure e à memória. | [piabrota.art/nixos](https://piabrota.art/nixos) | MPL-2.0 |
 | 🤖 | [**agents**](https://github.com/piabrota/agents) | Agentes pequenos que vigiam o nix-os e a VPS, e relatam no GitHub como piabrota-ops. Os agentes abrem pull requests e nunca fazem merge. | nenhum | MPL-2.0 |
 | <img alt="む, mu, brushed in its three strokes, in pure Nix" src="https://raw.githubusercontent.com/piabrota/mu/960984b928062b5cf043001e072322df51f106fa/docs/drawings/mu.svg" width="64"/> | [**mu**](https://github.com/piabrota/mu) | O chart da empresa: o dogma, os padrões, o diário e o índice dos repositórios da org. | nenhum | CC BY 4.0, AGPL-3.0, MPL-2.0 |
-| 道場 | [**dojo**](https://github.com/piabrota/dojo) | O umbrella dos projetos do piabrota. Em montagem. | ainda não | MPL-2.0 |
+| 道場 | [**dojo**](https://github.com/piabrota/dojo) | O umbrella e a camada comum: cada repositório é um submódulo aqui. | ainda não | MPL-2.0 |
 
 Os desenhos carregam do repositório de cada projeto, em um commit fixado. Nenhum desenho é copiado
 para cá. ihero, agents e dojo ainda não têm desenho.
 
 ## Como se encaixa
 
-![A fábrica piabrota em cinco faixas: mu e dojo sustentam a empresa; pirsig, gramatico e closed-source pensam e escrevem; alerts, rax, nix-os e agents alertam e hospedam; ihero toca; alerts serve piabrota.art/alerts, nix-os serve piabrota.art/nixos, e pirsig vai chegar a piabrota.art/pirsig.](img/pt/fabric.png)
+![A fábrica piabrota em cinco faixas: o dojo é a camada comum, recebe as regras do mu e fixa cada repositório; pirsig, gramatico e closed-source pensam e escrevem; alerts, rax, nix-os e agents alertam e hospedam; ihero toca; alerts serve piabrota.art/alerts, nix-os serve piabrota.art/nixos, e pirsig vai chegar a piabrota.art/pirsig.](img/pt/fabric.png)
 
 <details open>
 <summary>Como ler esta figura</summary>
 
-**Em uma frase.** São dez projetos abertos, cada um por conta própria. Três deles chegam à web em piabrota.art.
+**Em uma frase.** São dez projetos abertos, cada um por conta própria. O dojo é a camada comum que fixa todos eles, e três deles chegam à web em piabrota.art.
 
-**Como ler.** Cada faixa é um tipo de trabalho. Uma seta significa "é servido em", e o rótulo da seta
-é o caminho. "Em breve" significa planejado, ainda não publicado. A borda vermelha marca o domínio.
+**Como ler.** A faixa de cima é a camada comum, e cada outra faixa é um tipo de trabalho. Abaixo dela, uma
+seta significa "é servido em", e o rótulo da seta é o caminho. "Em breve" significa planejado, ainda não
+publicado. Uma borda vermelha marca o dojo e o domínio.
 
 **Fora da figura.** O site de cada projeto no GitHub Pages e as ferramentas em comum: Nix, Rust e
 archify.

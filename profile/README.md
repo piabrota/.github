@@ -8,7 +8,7 @@
 [![code: FOSS](https://img.shields.io/badge/code-FOSS-1682D4?style=flat-square)](#license)
 [![rust](https://img.shields.io/badge/rust-first-1682D4?style=flat-square&logo=rust&logoColor=white)](#projects)
 [![web: piabrota.art](https://img.shields.io/badge/web-piabrota.art-1682D4?style=flat-square)](https://piabrota.art)
-[![reading time: ~4 min](https://img.shields.io/badge/reading%20time-~4%20min-1682D4?style=flat-square)](#reading-time)
+[![reading time: ~5 min](https://img.shields.io/badge/reading%20time-~5%20min-1682D4?style=flat-square)](#reading-time)
 
 </div>
 
@@ -86,6 +86,14 @@ The people who build piabrota. Each line comes from their public GitHub profile.
 | <img alt="The GitHub avatar of h0ffmann" src="https://avatars.githubusercontent.com/h0ffmann?s=128" width="64"/> | [**@h0ffmann**](https://github.com/h0ffmann)<br/>Matheus Hoffmann | "water animal", in Florianópolis. Works on pirsig, ptbr-writer, alerts and nix-os, writes closed-source, and makes [marola](https://marola.dev), the water super app. The works with a DOI are in [How to cite](#how-to-cite). |
 | <img alt="The GitHub avatar of aracyla" src="https://avatars.githubusercontent.com/aracyla?s=128" width="64"/> | [**@aracyla**](https://github.com/aracyla) | "General purpose developer currently focused on frontend development", in Brazil ([aracyla.xyz](https://aracyla.xyz)). Small C projects to study: a Tetris and a unit-test library. |
 | <img alt="The GitHub avatar of robkler" src="https://avatars.githubusercontent.com/robkler?s=128" width="64"/> | [**@robkler**](https://github.com/robkler)<br/>Rôb Klér Soares da Silva Júnior | "Senior Backend Engineer", in Rio de Janeiro: Go and the JVM (Scala, Java), distributed systems, Kubernetes, AWS and GCP. Made the browser extension of [gramatico](https://github.com/piabrota/gramatico) (piabrota/gramatico#51), and owns gramatico's code with @h0ffmann. |
+
+Two more members are not people: they are GitHub Apps, the org's agents. Each one writes as a bot,
+signs what it writes with the agent, the model and where it ran, and never merges: a person does.
+
+| | Agent | Role |
+|:---:|---|---|
+| <img alt="The GitHub avatar of piabrota-ops" src="https://avatars.githubusercontent.com/in/5550661?s=128" width="64"/> | [**piabrota-ops**](https://github.com/apps/piabrota-ops) | The ops agent. Watches [nix-os](https://github.com/piabrota/nix-os) and its VPS, diagnoses a failed deploy, reviews pull requests, opens the weekly flake-update pull request and keeps the pt-BR and English mirrors in step. Code: [agents](https://github.com/piabrota/agents). |
+| <img alt="The GitHub avatar of piabrota-hermes" src="https://avatars.githubusercontent.com/in/5598006?s=128" width="64"/> | [**piabrota-hermes**](https://github.com/apps/piabrota-hermes) | The assistant of the owner. Answers on Telegram and Discord, runs the scheduled jobs the owner sets up (watchers and digests) and, when asked, opens a pull request from a `hermes/*` branch. Runs on the nix-os VPS as [Hermes Agent](https://github.com/NousResearch/hermes-agent); [docs/HERMES.md](https://github.com/piabrota/nix-os/blob/main/docs/HERMES.md). |
 
 ## Partnerships
 

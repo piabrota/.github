@@ -48,22 +48,23 @@
 | <img alt="无, mu, brushed in four strokes from Desmos equations" src="https://raw.githubusercontent.com/piabrota/nix-os/191a284035bef85ea828ff75cc729b4f045b10f1/docs/drawings/mu.svg" width="64"/> | [**nix-os**](https://github.com/piabrota/nix-os) | The NixOS configuration of the small VPS that serves piabrota.art/nixos. Every change is judged by what it adds to the closure and to memory. | [piabrota.art/nixos](https://piabrota.art/nixos) | MPL-2.0 |
 | 🤖 | [**agents**](https://github.com/piabrota/agents) | Small agents that watch nix-os and its VPS, and report on GitHub as piabrota-ops. They open pull requests and never merge. | none | MPL-2.0 |
 | <img alt="む, mu, brushed in its three strokes, in pure Nix" src="https://raw.githubusercontent.com/piabrota/mu/960984b928062b5cf043001e072322df51f106fa/docs/drawings/mu.svg" width="64"/> | [**mu**](https://github.com/piabrota/mu) | The company chart: the dogma, the standards, the journal and the index of the org's repositories. | none | CC BY 4.0, AGPL-3.0, MPL-2.0 |
-| 道場 | [**dojo**](https://github.com/piabrota/dojo) | The umbrella of the piabrota projects. Being set up. | none yet | MPL-2.0 |
+| 道場 | [**dojo**](https://github.com/piabrota/dojo) | The umbrella and the common layer: every repository is a submodule here. | none yet | MPL-2.0 |
 
 The drawings load from each project's repository at a pinned commit; none is copied here. ihero,
 agents and dojo have no drawing yet.
 
 ## How it fits
 
-![The piabrota fabric in five lanes: mu and dojo hold the company; pirsig, gramatico and closed-source think and write; alerts, rax, nix-os and agents warn and host; ihero plays; alerts serves piabrota.art/alerts, nix-os serves piabrota.art/nixos, and pirsig comes to piabrota.art/pirsig.](img/fabric.png)
+![The piabrota fabric in five lanes: dojo is the common layer, it takes the rules from mu and pins every repository; pirsig, gramatico and closed-source think and write; alerts, rax, nix-os and agents warn and host; ihero plays; alerts serves piabrota.art/alerts, nix-os serves piabrota.art/nixos, and pirsig comes to piabrota.art/pirsig.](img/fabric.png)
 
 <details open>
 <summary>How to read this figure</summary>
 
-**Takeaway.** Ten open projects, each on its own; three of them meet the web at piabrota.art.
+**Takeaway.** Ten open projects, each on its own. dojo is the common layer that pins them all, and three of them meet the web at piabrota.art.
 
-**How to read.** One lane per kind of work. An arrow means "is served at", and its label is the
-path; "coming" means planned, not live. The red border marks the domain.
+**How to read.** The top lane is the common layer, and each other lane is a kind of work. Below it, an arrow
+means "is served at", and its label is the path; "coming" means planned, not live. A red border marks
+dojo and the domain.
 
 **Not shown.** Each project's own site on GitHub Pages, and the tools they share: Nix, Rust,
 archify.

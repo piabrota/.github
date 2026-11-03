@@ -8,7 +8,7 @@
 [![código: FOSS](https://img.shields.io/badge/c%C3%B3digo-FOSS-1682D4?style=flat-square)](#licença)
 [![rust](https://img.shields.io/badge/rust-primeiro-1682D4?style=flat-square&logo=rust&logoColor=white)](#projetos)
 [![web: piabrota.art](https://img.shields.io/badge/web-piabrota.art-1682D4?style=flat-square)](https://piabrota.art)
-[![tempo de leitura: ~6 min](https://img.shields.io/badge/tempo%20de%20leitura-~6%20min-1682D4?style=flat-square)](#tempo-de-leitura)
+[![tempo de leitura: ~7 min](https://img.shields.io/badge/tempo%20de%20leitura-~7%20min-1682D4?style=flat-square)](#tempo-de-leitura)
 
 </div>
 
@@ -86,6 +86,14 @@ As pessoas que constroem o piabrota. Cada linha vem do perfil público da pessoa
 | <img alt="O avatar de h0ffmann no GitHub" src="https://avatars.githubusercontent.com/h0ffmann?s=128" width="64"/> | [**@h0ffmann**](https://github.com/h0ffmann)<br/>Matheus Hoffmann | "water animal", em Florianópolis. Trabalha no pirsig, ptbr-writer, alerts e nix-os, escreve o closed-source e faz o [marola](https://marola.dev), o super app da água. As obras com DOI estão em [Como citar](#como-citar). |
 | <img alt="O avatar de aracyla no GitHub" src="https://avatars.githubusercontent.com/aracyla?s=128" width="64"/> | [**@aracyla**](https://github.com/aracyla) | "General purpose developer currently focused on frontend development", no Brasil ([aracyla.xyz](https://aracyla.xyz)). Projetos pequenos em C para estudo: um Tetris e uma biblioteca de testes unitários. |
 | <img alt="O avatar de robkler no GitHub" src="https://avatars.githubusercontent.com/robkler?s=128" width="64"/> | [**@robkler**](https://github.com/robkler)<br/>Rôb Klér Soares da Silva Júnior | "Senior Backend Engineer", no Rio de Janeiro: Go e JVM (Scala, Java), sistemas distribuídos, Kubernetes, AWS e GCP. Fez a extensão de navegador do [gramatico](https://github.com/piabrota/gramatico) (piabrota/gramatico#51) e é dono do código do gramatico com @h0ffmann. |
+
+Outros dois membros não são pessoas: são GitHub Apps, os agentes da org. Cada um escreve como bot,
+assina o que escreve com o agente, o modelo e onde rodou, e nunca faz merge: quem faz é uma pessoa.
+
+| | Agente | Função |
+|:---:|---|---|
+| <img alt="O avatar de piabrota-ops no GitHub" src="https://avatars.githubusercontent.com/in/5550661?s=128" width="64"/> | [**piabrota-ops**](https://github.com/apps/piabrota-ops) | O agente de operações. Vigia o [nix-os](https://github.com/piabrota/nix-os) e a VPS dele, diagnostica um deploy que falhou, revisa pull requests, abre o pull request semanal de atualização do flake e mantém os espelhos em pt-BR e em inglês em dia. Código: [agents](https://github.com/piabrota/agents). |
+| <img alt="O avatar de piabrota-hermes no GitHub" src="https://avatars.githubusercontent.com/in/5598006?s=128" width="64"/> | [**piabrota-hermes**](https://github.com/apps/piabrota-hermes) | O assistente do dono. Responde no Telegram e no Discord, roda as tarefas agendadas que o dono configura (vigias e resumos) e, quando pedem, abre um pull request a partir de uma branch `hermes/*`. Roda na VPS do nix-os como [Hermes Agent](https://github.com/NousResearch/hermes-agent); veja [docs/HERMES.ptBR.md](https://github.com/piabrota/nix-os/blob/main/docs/HERMES.ptBR.md). |
 
 ## Parcerias
 

@@ -50,9 +50,10 @@
 | 🤖 | [**agents**](https://github.com/piabrota/agents) | Agentes pequenos que vigiam o nix-os e a VPS, e relatam no GitHub como piabrota-ops. Os agentes abrem pull requests e nunca fazem merge. | nenhum | MPL-2.0 |
 | <img alt="む, mu, brushed in its three strokes, in pure Nix" src="https://raw.githubusercontent.com/piabrota/mu/960984b928062b5cf043001e072322df51f106fa/docs/drawings/mu.svg" width="64"/> | [**mu**](https://github.com/piabrota/mu) | O chart da empresa: o dogma, os padrões, o diário e o índice dos repositórios da org. | nenhum | CC BY 4.0, AGPL-3.0, MPL-2.0 |
 | 道場 | [**dojo**](https://github.com/piabrota/dojo) | O umbrella dos projetos do piabrota. Em montagem. | ainda não | MPL-2.0 |
+| | [**ondecomer**](https://github.com/aracyla/onde-comer) | Um site que lista os restaurantes do Brasil, com filtros por categoria, localização e mais. Por enquanto, o site cobre só a cidade do Rio de Janeiro. | [https://aracyla.github.io/onde-comer/](https://aracyla.github.io/onde-comer/) | N/A |
 
 Os desenhos carregam do repositório de cada projeto, em um commit fixado. Nenhum desenho é copiado
-para cá. ihero, agents e dojo ainda não têm desenho.
+para cá. ihero, agents, dojo e ondecomer ainda não têm desenho.
 
 ## Como se encaixa
 

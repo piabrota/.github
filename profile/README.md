@@ -49,7 +49,7 @@
 | 🤖 | [**agents**](https://github.com/piabrota/agents) | Small agents that watch nix-os and its VPS, and report on GitHub as piabrota-ops. They open pull requests and never merge. | none | MPL-2.0 |
 | <img alt="む, mu, brushed in its three strokes, in pure Nix" src="https://raw.githubusercontent.com/piabrota/mu/960984b928062b5cf043001e072322df51f106fa/docs/drawings/mu.svg" width="64"/> | [**mu**](https://github.com/piabrota/mu) | The company chart: the dogma, the standards, the journal and the index of the org's repositories. | none | CC BY 4.0, AGPL-3.0, MPL-2.0 |
 | 道場 | [**dojo**](https://github.com/piabrota/dojo) | The umbrella of the piabrota projects. Being set up. | none yet | MPL-2.0 |
-| | [**ondecomer**](#) | A site that lists the restaurants of Brazil, with filters for category, location and more. For now it covers only the city of Rio de Janeiro. | none | N/A |
+| | [**ondecomer**](https://github.com/aracyla/onde-comer) | A site that lists the restaurants of Brazil, with filters for category, location and more. For now it covers only the city of Rio de Janeiro. | [https://aracyla.github.io/onde-comer/](https://aracyla.github.io/onde-comer/) | N/A |
 
 The drawings load from each project's repository at a pinned commit; none is copied here. ihero,
 agents, dojo and ondecomer have no drawing yet.

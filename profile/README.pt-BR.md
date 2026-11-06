@@ -46,33 +46,34 @@
 | <img alt="代理, dairi, an agent, brushed in sixteen strokes among stars, inside an orbit" src="https://raw.githubusercontent.com/piabrota/rax/a1c99e147db88902db52e92aa86fe47d06e6e8c7/docs/drawings/cosmos.svg" width="64"/> | [**rax**](https://github.com/piabrota/rax) | Rustic Agentic Runtime: um port em Rust puro do AX, o orquestrador declarativo de tarefas agênticas sobre o Agent Substrate. O rax mantém a API do AX, então um manifesto escrito para o AX funciona aqui. | nenhum | MPL-2.0, partes do AX em Apache-2.0 |
 | <img alt="An open letter c with a dot, on a dark square" src="https://raw.githubusercontent.com/h0ffmann/closed-source/6b3aae557f69ab89ec747364311978928dd0ca71/site/static/icons/favicon.svg" width="64"/> | [**closed-source**](https://github.com/h0ffmann/closed-source) | *The god that failed*: um livro sobre por que o código fechado falhou como proteção, a começar pela ciência. Entra Markdown, sai PDF, toda referência é checada e toda versão é citável. | [h0ffmann.github.io/closed-source](https://h0ffmann.github.io/closed-source/) | texto CC BY 4.0, código AGPL-3.0 |
 | 🎶 | [**ihero**](https://github.com/piabrota/ihero) | Um player de música e jogo FOSS, em Rust. Em breve: o repositório só tem a licença. | ainda não | MPL-2.0 |
+| <img alt="O quarto à noite: uma mesa com um computador bege, kanji em quadros na parede, uma janela larga sobre o Rio" src="https://raw.githubusercontent.com/piabrota/room/735c77cd4b04ce2b70704262074524d7370ee1cd/docs/record/shot-overview.jpg" width="64"/> | [**room**](https://github.com/piabrota/room) | Um site pessoal que é um quarto em 3D, feito com three.js: planos de câmera, fitas para ver na TV, a piabrota RADIO, chuva, dia e noite, e uma vista ▲ grid com 24 h de vento e mar na costa do Brasil. O modo LOFI transforma o quarto em uma página para ler. | [room.piabrota.art](https://room.piabrota.art) | MPL-2.0 |
 | <img alt="无, mu, brushed in four strokes from Desmos equations" src="https://raw.githubusercontent.com/piabrota/nix-os/191a284035bef85ea828ff75cc729b4f045b10f1/docs/drawings/mu.svg" width="64"/> | [**nix-os**](https://github.com/piabrota/nix-os) | A configuração NixOS da pequena VPS que serve piabrota.art/nixos. Cada mudança é julgada pelo que adiciona à closure e à memória. | [piabrota.art/nixos](https://piabrota.art/nixos) | MPL-2.0 |
 | 🤖 | [**agents**](https://github.com/piabrota/agents) | Agentes pequenos que vigiam o nix-os e a VPS, e relatam no GitHub como piabrota-ops. Os agentes abrem pull requests e nunca fazem merge. | nenhum | MPL-2.0 |
 | <img alt="む, mu, brushed in its three strokes, in pure Nix" src="https://raw.githubusercontent.com/piabrota/mu/960984b928062b5cf043001e072322df51f106fa/docs/drawings/mu.svg" width="64"/> | [**mu**](https://github.com/piabrota/mu) | O chart da empresa: o dogma, os padrões, o diário e o índice dos repositórios da org. | nenhum | CC BY 4.0, AGPL-3.0, MPL-2.0 |
 | 道場 | [**dojo**](https://github.com/piabrota/dojo) | O umbrella dos projetos do piabrota. Em montagem. | ainda não | MPL-2.0 |
 | | [**ondecomer**](https://github.com/aracyla/onde-comer) | Um site que lista os restaurantes do Brasil, com filtros por categoria, localização e mais. Por enquanto, o site cobre só a cidade do Rio de Janeiro. | [https://aracyla.github.io/onde-comer/](https://aracyla.github.io/onde-comer/) | N/A |
 
-Os desenhos carregam do repositório de cada projeto, em um commit fixado. Nenhum desenho é copiado
-para cá. ihero, agents, dojo e ondecomer ainda não têm desenho.
+Os desenhos e a foto do quarto carregam do repositório de cada projeto, em um commit fixado.
+Nenhuma imagem é copiada para cá. ihero, agents, dojo e ondecomer ainda não têm desenho.
 
 ## Como se encaixa
 
-![A fábrica piabrota em cinco faixas: mu e dojo sustentam a empresa; pirsig, gramatico e closed-source pensam e escrevem; alerts, rax, nix-os e agents alertam e hospedam; ihero toca; alerts serve piabrota.art/alerts, nix-os serve piabrota.art/nixos, e pirsig vai chegar a piabrota.art/pirsig.](img/pt/fabric.png)
+![A fábrica piabrota em cinco faixas: mu e dojo sustentam a empresa; pirsig, gramatico e closed-source pensam e escrevem; alerts, rax, nix-os e agents alertam e hospedam; room e ihero tocam; alerts serve piabrota.art/alerts, nix-os serve piabrota.art/nixos, room é servido em room.piabrota.art, e pirsig vai chegar a piabrota.art/pirsig.](img/pt/fabric.png)
 
 <details open>
 <summary>Como ler esta figura</summary>
 
-**Em uma frase.** São dez projetos abertos, cada um por conta própria. Três deles chegam à web em piabrota.art.
+**Em uma frase.** São onze projetos abertos, cada um por conta própria. Quatro deles chegam à web em piabrota.art.
 
 **Como ler.** Cada faixa é um tipo de trabalho. Uma seta significa "é servido em", e o rótulo da seta
-é o caminho. "Em breve" significa planejado, ainda não publicado. A borda vermelha marca o domínio.
+é o caminho ou o host. "Em breve" significa planejado, ainda não publicado. A borda vermelha marca o domínio.
 
 **Fora da figura.** O site de cada projeto no GitHub Pages e as ferramentas em comum: Nix, Rust e
 archify.
 
 **Evidência.** [`archify/pt/fabric.json`](archify/pt/fabric.json) é a fonte da figura. Os caminhos vêm
-de `docs/HOSPEDAGEM.md` do alerts (`/alerts`), de `AGENTS.md` do nix-os (`/nixos`) e do README do
-pirsig, "Ways to run Pirsig" (`/pirsig`, em breve).
+de `docs/HOSPEDAGEM.md` do alerts (`/alerts`), de `AGENTS.md` do nix-os (`/nixos`), de `room.nix` do nix-os
+(`room.piabrota.art`) e do README do pirsig, "Ways to run Pirsig" (`/pirsig`, em breve).
 
 </details>
 

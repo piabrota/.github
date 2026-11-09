@@ -8,7 +8,7 @@
 [![código: FOSS](https://img.shields.io/badge/c%C3%B3digo-FOSS-1682D4?style=flat-square)](#licença)
 [![rust](https://img.shields.io/badge/rust-primeiro-1682D4?style=flat-square&logo=rust&logoColor=white)](#projetos)
 [![web: piabrota.art](https://img.shields.io/badge/web-piabrota.art-1682D4?style=flat-square)](https://piabrota.art)
-[![tempo de leitura: ~7 min](https://img.shields.io/badge/tempo%20de%20leitura-~7%20min-1682D4?style=flat-square)](#tempo-de-leitura)
+[![tempo de leitura: ~8 min](https://img.shields.io/badge/tempo%20de%20leitura-~8%20min-1682D4?style=flat-square)](#tempo-de-leitura)
 
 </div>
 
@@ -45,6 +45,7 @@
 | <img alt="A Fibonacci wave and a bell, in one line" src="https://raw.githubusercontent.com/piabrota/alerts/10d996d47c4a8c6bc4076f826bc274da3f8a5561/docs/drawings/wave.svg" width="64"/> | [**alerts**](https://github.com/piabrota/alerts) | Uma plataforma genérica de alertas. A plataforma coleta alertas só de fontes oficiais e entrega os alertas ao Discord e a um feed Atom com CAP 1.2. O primeiro risco coberto é o de enchentes no Sul do Brasil. | ainda não (piabrota.art/alerts, em breve) | MPL-2.0 |
 | <img alt="代理, dairi, an agent, brushed in sixteen strokes among stars, inside an orbit" src="https://raw.githubusercontent.com/piabrota/rax/a1c99e147db88902db52e92aa86fe47d06e6e8c7/docs/drawings/cosmos.svg" width="64"/> | [**rax**](https://github.com/piabrota/rax) | Rustic Agentic Runtime: um port em Rust puro do AX, o orquestrador declarativo de tarefas agênticas sobre o Agent Substrate. O rax mantém a API do AX, então um manifesto escrito para o AX funciona aqui. | nenhum | MPL-2.0, partes do AX em Apache-2.0 |
 | <img alt="An open letter c with a dot, on a dark square" src="https://raw.githubusercontent.com/h0ffmann/closed-source/6b3aae557f69ab89ec747364311978928dd0ca71/site/static/icons/favicon.svg" width="64"/> | [**closed-source**](https://github.com/h0ffmann/closed-source) | *The god that failed*: um livro sobre por que o código fechado falhou como proteção, a começar pela ciência. Entra Markdown, sai PDF, toda referência é checada e toda versão é citável. | [h0ffmann.github.io/closed-source](https://h0ffmann.github.io/closed-source/) | texto CC BY 4.0, código AGPL-3.0 |
+| ∀ | [**awesome-neurosymbolic-ai**](https://github.com/h0ffmann/awesome-neurosymbolic-ai) | Uma lista curada de frameworks, raciocinadores, artigos, cursos e benchmarks de IA neurossimbólica: sistemas que juntam aprendizado neural e raciocínio simbólico. | nenhum | CC0-1.0 |
 | 🎶 | [**ihero**](https://github.com/piabrota/ihero) | Um player de música e jogo FOSS, em Rust. Em breve: o repositório só tem a licença. | ainda não | MPL-2.0 |
 | <img alt="O quarto à noite: uma mesa com um computador bege, kanji em quadros na parede, uma janela larga sobre o Rio" src="https://raw.githubusercontent.com/piabrota/room/735c77cd4b04ce2b70704262074524d7370ee1cd/docs/record/shot-overview.jpg" width="64"/> | [**room**](https://github.com/piabrota/room) | Um site pessoal que é um quarto em 3D, feito com three.js: planos de câmera, fitas para ver na TV, a piabrota RADIO, chuva, dia e noite, e uma vista ▲ grid com 24 h de vento e mar na costa do Brasil. O modo LOFI transforma o quarto em uma página para ler. | [room.piabrota.art](https://room.piabrota.art) | MPL-2.0 |
 | <img alt="无, mu, brushed in four strokes from Desmos equations" src="https://raw.githubusercontent.com/piabrota/nix-os/191a284035bef85ea828ff75cc729b4f045b10f1/docs/drawings/mu.svg" width="64"/> | [**nix-os**](https://github.com/piabrota/nix-os) | A configuração NixOS da pequena VPS que serve piabrota.art/nixos. Cada mudança é julgada pelo que adiciona à closure e à memória. | [piabrota.art/nixos](https://piabrota.art/nixos) | MPL-2.0 |
@@ -55,7 +56,8 @@
 | <img alt="Uma rede neural que flui para o quantificador universal, desenhada com equações do Desmos" src="https://raw.githubusercontent.com/h0ffmann/proof/361e50fb1cea81433d50c941db4f00363af2bd75/docs/logo/logo.svg" width="128"/> | [**proof**](https://github.com/h0ffmann/proof) | **Em incubação.** Especificações escritas e provadas em Lean 4, com implementações em Haskell e Rust conferidas contra elas, e experimentos de dados com artigos. Antes se chamava dogma. | nenhum | MPL-2.0 |
 
 Os desenhos e a foto do quarto carregam do repositório de cada projeto, em um commit fixado.
-Nenhuma imagem é copiada para cá. ihero, agents, dojo e ondecomer ainda não têm desenho.
+Nenhuma imagem é copiada para cá. ihero, agents, dojo e ondecomer ainda não têm desenho, e
+awesome-neurosymbolic-ai mostra o ∀ com que o README dela abre.
 
 ## Como se encaixa
 

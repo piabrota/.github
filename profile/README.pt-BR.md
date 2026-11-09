@@ -52,6 +52,7 @@
 | <img alt="む, mu, brushed in its three strokes, in pure Nix" src="https://raw.githubusercontent.com/piabrota/mu/960984b928062b5cf043001e072322df51f106fa/docs/drawings/mu.svg" width="64"/> | [**mu**](https://github.com/piabrota/mu) | O chart da empresa: o dogma, os padrões, o diário e o índice dos repositórios da org. | nenhum | CC BY 4.0, AGPL-3.0, MPL-2.0 |
 | 道場 | [**dojo**](https://github.com/piabrota/dojo) | O umbrella dos projetos do piabrota. Em montagem. | ainda não | MPL-2.0 |
 | | [**ondecomer**](https://github.com/aracyla/onde-comer) | Um site que lista os restaurantes do Brasil, com filtros por categoria, localização e mais. Por enquanto, o site cobre só a cidade do Rio de Janeiro. | [https://aracyla.github.io/onde-comer/](https://aracyla.github.io/onde-comer/) | N/A |
+| <img alt="Uma rede neural que flui para o quantificador universal, desenhada com equações do Desmos" src="https://raw.githubusercontent.com/h0ffmann/proof/361e50fb1cea81433d50c941db4f00363af2bd75/docs/logo/logo.svg" width="128"/> | [**proof**](https://github.com/h0ffmann/proof) | **Em incubação.** Especificações escritas e provadas em Lean 4, com implementações em Haskell e Rust conferidas contra elas, e experimentos de dados com artigos. Antes se chamava dogma. | nenhum | MPL-2.0 |
 
 Os desenhos e a foto do quarto carregam do repositório de cada projeto, em um commit fixado.
 Nenhuma imagem é copiada para cá. ihero, agents, dojo e ondecomer ainda não têm desenho.

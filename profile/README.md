@@ -51,6 +51,7 @@
 | <img alt="む, mu, brushed in its three strokes, in pure Nix" src="https://raw.githubusercontent.com/piabrota/mu/960984b928062b5cf043001e072322df51f106fa/docs/drawings/mu.svg" width="64"/> | [**mu**](https://github.com/piabrota/mu) | The company chart: the dogma, the standards, the journal and the index of the org's repositories. | none | CC BY 4.0, AGPL-3.0, MPL-2.0 |
 | 道場 | [**dojo**](https://github.com/piabrota/dojo) | The umbrella of the piabrota projects. Being set up. | none yet | MPL-2.0 |
 | | [**ondecomer**](https://github.com/aracyla/onde-comer) | A site that lists the restaurants of Brazil, with filters for category, location and more. For now it covers only the city of Rio de Janeiro. | [https://aracyla.github.io/onde-comer/](https://aracyla.github.io/onde-comer/) | N/A |
+| <img alt="A neural network flowing into the universal quantifier, drawn from Desmos equations" src="https://raw.githubusercontent.com/h0ffmann/proof/361e50fb1cea81433d50c941db4f00363af2bd75/docs/logo/logo.svg" width="128"/> | [**proof**](https://github.com/h0ffmann/proof) | **Incubating.** Specifications written and proved in Lean 4, with Haskell and Rust implementations checked against them, and data experiments with papers. Formerly dogma. | none | MPL-2.0 |
 
 The drawings and the picture of the room load from each project's repository at a pinned commit;
 none is copied here. ihero, agents, dojo and ondecomer have no drawing yet.

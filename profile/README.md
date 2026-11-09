@@ -102,22 +102,11 @@ signs what it writes with the agent, the model and where it ran, and never merge
 
 ## Partnerships
 
-Partnership or white label requests: mhoffmannfs [at] gmail.com.
+Partnership or white label requests: whitelabel [at] piabrota.art
 
 To fund the work: [Open Collective](https://opencollective.com/piabrota) or
 [GitHub Sponsors](https://github.com/sponsors/h0ffmann). Every repository of the org shows the
 Sponsor button ([`.github/FUNDING.yml`](../.github/FUNDING.yml)).
-
-## How to cite
-
-The works with a DOI, by Matheus Hoffmann:
-
-- marola: [10.5281/zenodo.23224155](https://doi.org/10.5281/zenodo.23224155)
-- ww3-gpu: [10.5281/zenodo.23221351](https://doi.org/10.5281/zenodo.23221351)
-- picasso: [10.5281/zenodo.23311208](https://doi.org/10.5281/zenodo.23311208)
-- closed source: [10.5281/zenodo.23333656](https://doi.org/10.5281/zenodo.23333656)
-- marola-bench: [10.5281/zenodo.23352633](https://doi.org/10.5281/zenodo.23352633)
-- nashkell, the open book: [10.5281/zenodo.23356739](https://doi.org/10.5281/zenodo.23356739)
 
 ## Reading time
 
